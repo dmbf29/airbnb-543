@@ -1,0 +1,10 @@
+<div class="container my-5">
+  <div class="row">
+    <div class="col-12">
+      <h1><%= @flat['name'] %></h1>
+      <%= image_tag @flat['imageUrl'], alt: "flat photo", width: '100%' %>
+      <h3>$<%= @flat['price'] %></h3>
+      <%= link_to "Back", root_path %>
+    </div>
+  </div>
+</div>
